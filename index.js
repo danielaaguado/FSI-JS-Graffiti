@@ -15,6 +15,7 @@ var dogImages = document.querySelectorAll('.dog-image')
 /* 4. modify the multiple elements (dog images) */
 for(let i = 0; i < dogImages.length; i++){
     dogImages[i].style.borderRadius = '50px'
+    dogImages[i].style.transform = 'scaleX(-1)'
 }
 
 /* 5.a define and select multiple elments (dog names)
